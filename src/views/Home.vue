@@ -36,7 +36,6 @@
         </v-data-table>
       </v-card>
     </v-col>
-    <img src="https://picsum.photos/id/11/500/300" />
     <!-- <v-col
       class="mx-auto px-5"
       lg="9"
@@ -93,6 +92,7 @@ export default {
       )
       .then((response) => {
         this.postList = response.data;
+        console.log(response.data);
         // let data = response.data;
         // data.forEach((element) => {
         //   this.cryptoObj.name = element.name;
